@@ -1,0 +1,3 @@
+Trigger: when publishing repos. Behavior: update GitHub and Gitee. Exception: do not publish secrets. Never store tokens/cookies/passwords.
+
+Operational note: run this in CI with --markdown and --sarif.

@@ -1,0 +1,41 @@
+{
+  "name": "agent-memory-audit",
+  "version": "0.1.0",
+  "description": "Check AI memory or rule files for trigger conditions, behavior, exceptions, and secret boundaries.",
+  "type": "module",
+  "bin": {
+    "agent-memory-audit": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "ai-memory",
+    "rules",
+    "agent",
+    "security",
+    "developer-tools"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/agent-memory-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/agent-memory-audit/issues"
+  },
+  "homepage": "https://github.com/aolingge/agent-memory-audit"
+}
