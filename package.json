@@ -19,7 +19,8 @@
     "README.zh-CN.md",
     "LICENSE",
     "SECURITY.md",
-    "CONTRIBUTING.md"
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
   ],
   "keywords": [
     "ai-memory",
@@ -39,3 +40,4 @@
   },
   "homepage": "https://github.com/aolingge/agent-memory-audit"
 }
+
